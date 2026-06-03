@@ -1,16 +1,16 @@
 
-let m1 = 7
-let m2 = 7
-let m3 = 21-(m2+m1)
-let m4 = 3/(m3+m2+m1)
-//let m5 = 0
-let m6 = ((5*2)-m4)
-console.log ("voce precisa tirar ",m3," para passar na prova da n3")
-if (m4 >= 7){
-    console.log("Voce foi aprovado")
-}else {
-    console.log("voce nao passou, precisa ir para exame. Voce precisa tirar ",m6)
-}
+// let m1 = 7
+// let m2 = 7
+// let m3 = 21-(m2+m1)
+// let m4 = 3/(m3+m2+m1)
+// let m5 = 0
+// let m6 = ((5*2)-m4)
+// console.log ("voce precisa tirar ",m3," para passar na prova da n3")
+// if (m4 >= 7){
+//     console.log("Voce foi aprovado")
+// }else {
+//     console.log("voce nao passou, precisa ir para exame. Voce precisa tirar ",m6)
+// }
 // if (m3 < 5){
 //     console.log("parabem voce passou no exame")
 // }else {
@@ -24,52 +24,137 @@ if (m4 >= 7){
 
 
 
-let n1 = 9
-let n2 = 5
-let n3 = 8
-let mn = ((n1+n2+n3)/3)
-console.log(mn)
-
-if (mn >= 7){
-    console.log("Parabens voce pasoou de ano")
-} else {
-    console.log("Infelizmente nao passou")
-}
-
-for (let i = 0; i < 5; i++)
 
 
-let a = 5;
-let b = 20;
-let idade = 19
-let casado = false
-console.log(a+b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b) // divisao
-console.log(a=b) // recebe
-console.log(a==b)// igual
-console.log(a!=b) //diferente
-if (idade >= 18) {
-    console.log("voce é maior de idade")
-} else {
-    console.log("Voce é nemor de idade")
-}
-
-if (casado) {
-    ("ta lascado")
-} else {
-    ("aproveitou a vida")
-}
 
 
-let nome = "victor";
-let sobrenome = "gabriel"
-let idade = 19;
-let lascado = false;
 
-console.log("ola mundo, bem vindo ", nome, sobrenome );
-console.log(idade);
-console.log(lascado);
 
-alert("bem vindo ao meu site");
+// let n1 = 9
+// let n2 = 5
+// let n3 = 8
+// let mn = ((n1+n2+n3)/3)
+// console.log(mn)
+
+// if (mn >= 7){
+//     console.log("Parabens voce pasoou de ano")
+// } else {
+//     console.log("Infelizmente nao passou")
+// }
+
+// for (let i = 0; i < 5; i++);
+
+
+
+
+
+
+
+
+
+// let a = 5;
+// let b = 20;
+// let idade = 19
+// let casado = false
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b) // divisao
+// console.log(a=b) // recebe
+// console.log(a==b)// igual
+// console.log(a!=b) //diferente
+// if (idade >= 18) {
+//     console.log("voce é maior de idade")
+// } else {
+//     console.log("Voce é nemor de idade")
+// }
+// if (casado) {
+//     ("ta lascado")
+// } else {
+//     ("aproveitou a vida")
+// }
+
+
+
+
+
+
+// let cadastro = {
+//     nome : "victor",
+//     idade : 19,
+// }
+// novocadastro = '{"nome":"victor","idade":"19",}'
+// console.log(cadastrol)
+// let json = JSON.stringify(cadastro);
+// let retorno = JSON.parse(novocadastro)
+// console.log(retorno)
+// console.log(json)
+
+
+
+
+
+
+
+
+
+// let chamada = [
+//     {
+//         ra:1,
+//         aluno:"antony"
+//     },
+//     {
+//         ra:2,
+//         aluno:"davi"
+//     },
+//     {
+//         ra:3,
+//         aluno:"victor"
+//     }
+// ]
+// for (aluno of chamada) {
+//     console.log(aluno.ra, aluno.aluno)
+// }
+
+
+
+
+
+
+// let pessoa = {
+//     nome : "victor",
+//     altura : 1.75,
+//     corraça : "pardo",
+//     carro : {
+//         marca : "gol",
+//         ano : 2000,
+//         atdono : "Marcos",
+//         nvdono : "Victor",
+//         kmroda : 19000,
+//         kmlitro : "60km/1l",
+//         valofipe : null
+//     },
+//     naotrabalha : "sim",
+//     materias: ["web","front","logica"]
+// }
+// console.log(pessoa.carro.atdono)
+// console.log(pessoa.materias[1])
+// for (materia of pessoa.materias){
+//     console.log(materia)
+// }
+
+
+
+
+
+
+//let nome = "victor"
+// let sobrenome = "gabriel"
+// let idaden = 19;
+// let lascado = false;
+
+//console.log("ola mundo, bem vindo ", nome);
+// console.log(idade);
+// console.log(lascado);
+
+// alert("bem vindo ao meu site");
